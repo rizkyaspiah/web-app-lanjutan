@@ -55,3 +55,9 @@ use App\Http\Controllers\AspiahController;
 Route::get("/rizky/satu", [AspiahController:: class, "satu"]);
 Route::get("/rizky/dua", [AspiahController:: class, "dua"]);
 Route::get("/rizky/tiga", [AspiahController:: class, "tiga"]);
+
+
+/* URL CONTROLLER UTAMA */
+use App\Http\Controllers\UtamaController;
+
+Route::get("/tema/bootstrap", [UtamaController::class, "index"]);
